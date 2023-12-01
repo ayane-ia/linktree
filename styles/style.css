@@ -4,40 +4,41 @@
   box-sizing: border-box;
 }
 
-.fundo-img {
+
+body {
   padding: 20px;
+  margin: 10px;
+}
+
+.container {
+  width: 80%;
+  padding: 50px;
+  background-color: rgb(28, 126, 255);
+  margin: auto;
+  border-radius: 20px;
+}
+
+.cabeca {
+  width: 100%;
+  height: 300px;
   background-image: url('../img/fundo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.fundo-img img{
-  display: block;
-  width: 150px;
-  border-radius: 50%;
-  margin: auto;
-}
-
-.linktree {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.linktree a {
-  background-color: #00a2ff;
-  padding: 10px 20px;
-  width: 200px;
-  display: block;
-  margin: auto;
   border-radius: 10px;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-weight: bold;
 }
 
-.linktree a:hover {
-  background-color: #2980b9;
+.container-imagem {
+  width: 100%;
+  margin-top: -150px;
+}
+
+.container .imagem {
+  width: 300px;
+  margin: auto;
+}
+
+.container .imagem img {
+  width: inherit;
+  border-radius: 20px;
 }
